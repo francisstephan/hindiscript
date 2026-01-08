@@ -2,7 +2,7 @@
 
 At first, refer to the given tables to get the characters you want. After a time this will become automatic.
 
-Try live at https://www.eludev.fr/urdu
+Try live at https://www.eludev.fr/hindi
 
 # Programming language
 The application is written with Elm, which allows for:

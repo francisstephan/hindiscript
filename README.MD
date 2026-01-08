@@ -27,6 +27,10 @@ but also for ञ : n', श : s' and anusvara ं : ('
 
 The choice between the two sets of vowels ("full" and "matra" vowels) is made automatically based on the context.
 
+## anusvara ं or candrabindu ँ
+
+The choice between anusvara and candrabindu is not automatic and should be made by the user. It is made easier by the fact that candrabindu is represented by ( to which you just add a ' to get anusvara (' .
+
 ## ligatures
 
 The basic consonant forms include the 'inherent vowel' a. Devanagari script provides ligatures when there is no vowel between two consonants. For example:
@@ -42,7 +46,7 @@ For an introduction to Google Noto fonts, see [https://en.wikipedia.org/wiki/Not
 
 To learn how to use Noto fonts, read [https://design.google/library/hot-type-always-fresh](https://design.google/library/hot-type-always-fresh) and [https://developers.google.com/fonts/docs/getting_started](https://developers.google.com/fonts/docs/getting_started)
 
-For our urdu script program, this very simply translates to:
+For our hindi script program, this very simply translates to:
 - 3 lines in index.html (just after the <head> tag):
 ```
   <link rel="preconnect" href="https://fonts.googleapis.com">

@@ -23,6 +23,8 @@ Instead we use two suffixes:
 but also for ञ : n', श : s' and anusvara ं : ('
 - and " used for ग़ : g" and  ष : s"
 
+To use ' or " as quotation marks, insert a space before them.
+
 ## vowels
 
 The choice between the two sets of vowels ("full" and "matra" vowels) is made automatically based on the context.
@@ -33,7 +35,7 @@ The choice between anusvara and candrabindu is not automatic and should be made 
 
 ## ligatures
 
-The basic consonant forms include the 'inherent vowel' a. Devanagari script provides ligatures when there is no vowel between two consonants. For example:
+The basic consonant forms include the 'inherent vowel' a. Devanagari script uses ligatures when there is no vowel between two consonants. For example:
 nd is translated as नद, which also stands for nada
 To represent the nd sound as in "Hindi", you must mark a virama (transcribed as '-', the minus sign) between n and d:
 n-d is translated as न्द, as in hin-dî हिन्दी

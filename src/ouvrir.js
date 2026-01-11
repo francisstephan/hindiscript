@@ -1,7 +1,7 @@
-openDic = function (id){
+openDic = function (id) {
   copyTextToClipboard(id);
-  var text = document.getElementById(id).innerHTML ;
+  var text = document.getElementById(id).innerHTML;
   // let result = text.replace(/ /g, "+");
-  var chaine="https://en.wiktionary.org/wiki/"+text
+  var chaine = "https://www.boltidictionary.com/en/search?s=" + text;
   window.open(chaine);
-}
+};

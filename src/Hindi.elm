@@ -56,7 +56,7 @@ view model =
     [ span [style "font-weight" "bold"] [ text "Type on latin keyboard :"]
     , button [ class "rebut", onClick Reset ] [ text "Reset" ]
     , button [ class "rebut", onClick CopyToClipboard ] [ text "Copy to clipboard" ]
-    , button [ class "rebut", onClick OpenDic ] [ text "Lookup in Wiktionary" ]
+    , button [ class "rebut", onClick OpenDic ] [ text "Lookup Bolti Dictionary" ]
     , br [] []
     , input [ autofocus True, size 120, placeholder "Latin caracters", value model.content, onInput Change, id "entree" ] []
     , div [style "font-weight" "bold", style "margin-top" "12px"] [ text "Get Devanagari text :"]

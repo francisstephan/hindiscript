@@ -74,6 +74,6 @@ with `sans-serif` being the fallback font in the font-family specifiation.
 Any character not recognized is rendered unmodified.
 
 
-# Licence
+# License
 
 MIT

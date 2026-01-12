@@ -16,11 +16,11 @@ The application is written with Elm, which allows for:
 We tried to use a logical transcription close to Davanagari logic:
 
 ## _ prefixed characters:
-We do not use _ prefix for our Hindi script program.
+We use _ prefix only to get a regular ( since we use ( for candrabindu.
 
-Instead we use two suffixes:
+We use two suffixes:
 - ' mainly for aspirated consonants (k' g' c' j' T' D' p' b' to get ख घ छ झ ठ ढ फ भ),
-but also for ञ : n', श : s' and anusvara ं : ('
+but also for ञ as n', श as s', anusvara ं as (' and visarga ः as :'
 - and " used for ग़ : g" and  ष : s"
 
 To use ' or " as quotation marks, insert a space before them.
@@ -32,6 +32,8 @@ The choice between the two sets of vowels ("full" and "matra" vowels) is made au
 ## anusvara ं or candrabindu ँ
 
 The choice between anusvara and candrabindu is not automatic and should be made by the user. It is made easier by the fact that candrabindu is represented by ( to which you just add a ' to get anusvara (' .
+
+To get a regular ( type _(
 
 ## ligatures
 

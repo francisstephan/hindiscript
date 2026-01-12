@@ -64,12 +64,13 @@ latHindi = Dict.fromList [("k" , "\u{0915}") ,("k'" , "\u{0916}")
                          ,("5","\u{096B}"),("6","\u{096C}"),("7","\u{096D}"),("8","\u{096E}"),("9","\u{096F}")
                          , ("." , "\u{0964}") -- purna viram = danda
                          , (".'" , "\u{0970}")
+                         , (":'" , "\u{0903}")
                          , ("_" , "") -- filter _
                          ]
 
 latHindi_ : Dict.Dict String String -- characters to be preceded by _ (underscore)
 latHindi_= Dict.fromList  [("g" , "\u{095A}") -- use rather g" , see above
-
+                          , ("(" , "(")
                           ]
 
 diacritics : List String

@@ -16,7 +16,7 @@ The application is written with Elm, which allows for:
 We tried to use a logical transcription close to Davanagari logic:
 
 ## _ prefixed characters:
-We use _ prefix only to get a regular ( since we use ( for candrabindu.
+We use _ prefix only in _( to get a regular ( since we use ( for candrabindu  ँ
 
 We use two suffixes:
 - ' mainly for aspirated consonants (k' g' c' j' T' D' p' b' to get ख घ छ झ ठ ढ फ भ),

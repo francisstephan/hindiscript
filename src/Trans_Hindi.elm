@@ -58,7 +58,7 @@ latHindi = Dict.fromList [("k" , "\u{0915}") ,("k'" , "\u{0916}")
                          ,("f" , "\u{095E}")
                          ,("y" , "\u{092F}"), ("r" , "\u{0930}"), ("l" , "\u{0932}"),("v","\u{0935}")
                          ,("s'" ,"\u{0936}"), ("s\"","\u{0937}"), ("s" , "\u{0938}"),("h","\u{0939}")
-                         ,("(" , "\u{0901}"),("('" , "\u{0902}") -- candrabindu, anusvara
+                         ,("(","\u{0901}"),("('","\u{0902}"),(")","\u{0945}") -- candrabindu,anusvara,candra
                          ,("-" , "\u{094D}")  -- virama
                          ,("0","\u{0966}"),("1","\u{0967}"),("2","\u{0968}"),("3","\u{0969}"),("4","\u{096A}")
                          ,("5","\u{096B}"),("6","\u{096C}"),("7","\u{096D}"),("8","\u{096E}"),("9","\u{096F}")
@@ -71,6 +71,7 @@ latHindi = Dict.fromList [("k" , "\u{0915}") ,("k'" , "\u{0916}")
 latHindi_ : Dict.Dict String String -- characters to be preceded by _ (underscore)
 latHindi_= Dict.fromList  [("g" , "\u{095A}") -- use rather g" , see above
                           , ("(" , "(")
+                          , (")" , ")")
                           ]
 
 diacritics : List String
